@@ -1,0 +1,16 @@
+@media (max-width: 1160px) {
+    .nav-list {
+        display: none;
+
+
+    }
+
+    .nav__user {
+        display: none;
+    }
+
+    .mobile-nav-btn {
+        display: block;
+    }
+
+}
