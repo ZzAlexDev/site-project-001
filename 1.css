@@ -1,0 +1,73 @@
+.one-half,
+.one-third,
+.two-third,
+.one-fourth {
+    position: relative;
+    margin-right: 4%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.two-third {
+    margin-right: 2.5%;
+}
+
+.one-half {
+    width: 48%;
+}
+
+.one-third {
+    width: 30%;
+}
+
+.two-third {
+    width: 66%;
+}
+
+.one-fourth {
+    width: 22%;
+}
+
+.last {
+    margin-right: 0;
+    clear: right;
+}
+
+@media only screen and (max-width: 1024px) {
+    .one-fourth {
+        width: 100%;
+        margin-right: 0;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .one-half,
+    .one-third,
+    .two-third {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+.wpcf-wrap {
+    min-height: 90px;
+}
+
+div.wpcf7-response-output {
+    width: 100%;
+    clear: both;
+    margin: 0;
+}
+
+.wpcf-accept {
+    clear: both;
+}
+
+.wpcf7-acceptance>.wpcf7-list-item {
+    margin: 0;
+}
+
+.wpcf-accept>.wpcf7-form-control-wrap {
+    display: inline-block
+}
